@@ -1,0 +1,10 @@
+<HTML>
+<HEAD>
+<TITLE>filesize</TITLE>
+</HEAD>
+<BODY>
+<?php
+	print(filesize("data.txt"));
+?>
+</BODY>
+</HTML>

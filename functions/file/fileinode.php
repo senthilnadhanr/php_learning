@@ -1,0 +1,10 @@
+<HTML>
+<HEAD>
+<TITLE>fileinode</TITLE>
+</HEAD>
+<BODY>
+<?php
+	print(fileinode("data.txt"));
+?>
+</BODY>
+</HTML>

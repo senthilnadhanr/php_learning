@@ -1,0 +1,10 @@
+<HTML>
+<HEAD>
+<TITLE>getmyuid</TITLE>
+</HEAD>
+<BODY>
+<?
+	print(getmyuid());
+?>
+</BODY>
+</HTML>

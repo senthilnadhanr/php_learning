@@ -1,0 +1,10 @@
+<HTML>
+<HEAD>
+<TITLE>pg_dbname</TITLE>
+</HEAD>
+<BODY>
+<?
+	print(pg_dbname($Connection));
+?>
+</BODY>
+</HTML>

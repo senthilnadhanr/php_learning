@@ -1,0 +1,10 @@
+<HTML>
+<HEAD>
+<TITLE>pg_tty</TITLE>
+</HEAD>
+<BODY>
+<?
+	print(pg_tty($Connection));
+?>
+</BODY>
+</HTML>

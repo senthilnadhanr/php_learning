@@ -1,0 +1,10 @@
+<HTML>
+<HEAD>
+<TITLE>velocis_off_autocommit</TITLE>
+</HEAD>
+<BODY>
+<?
+	velocis_off_autocommit($connection);
+?>
+</BODY>
+</HTML>

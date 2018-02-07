@@ -1,0 +1,10 @@
+<HTML>
+<HEAD>
+<TITLE>velocis_rollback</TITLE>
+</HEAD>
+<BODY>
+<?
+	velocis_rollback($connection);
+?>
+</BODY>
+</HTML>

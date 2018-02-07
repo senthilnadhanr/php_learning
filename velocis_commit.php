@@ -1,0 +1,10 @@
+<HTML>
+<HEAD>
+<TITLE>velocis_commit</TITLE>
+</HEAD>
+<BODY>
+<?
+	velocis_commit($connection);
+?>
+</BODY>
+</HTML>

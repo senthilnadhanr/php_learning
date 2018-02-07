@@ -1,0 +1,10 @@
+<HTML>
+<HEAD>
+<TITLE>linkinfo</TITLE>
+</HEAD>
+<BODY>
+<?
+	print(linkinfo("data.txt"));
+?>
+</BODY>
+</HTML>

@@ -1,0 +1,10 @@
+<HTML>
+<HEAD>
+<TITLE>urldecode</TITLE>
+</HEAD>
+<BODY>
+<?
+	print(urldecode("mail%20leon%40clearink.com"));
+?>
+</BODY>
+</HTML>

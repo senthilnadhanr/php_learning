@@ -1,0 +1,11 @@
+<HTML>
+<HEAD>
+<TITLE>basename</TITLE>
+</HEAD>
+<BODY>
+<?
+	$path="/usr/local/bin/ls";
+	print(basename($path));
+?>
+</BODY>
+</HTML>

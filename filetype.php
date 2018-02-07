@@ -1,0 +1,10 @@
+<HTML>
+<HEAD>
+<TITLE>filetype</TITLE>
+</HEAD>
+<BODY>
+<?
+	print(filetype("data.txt"));
+?>
+</BODY>
+</HTML>

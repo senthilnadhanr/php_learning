@@ -1,0 +1,10 @@
+<HTML>
+<HEAD>
+<TITLE>touch</TITLE>
+</HEAD>
+<BODY>
+<?
+	touch("data.txt");
+?>
+</BODY>
+</HTML>

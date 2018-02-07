@@ -1,0 +1,10 @@
+<HTML>
+<HEAD>
+<TITLE>getmyinode</TITLE>
+</HEAD>
+<BODY>
+<?
+	print(getmyinode());
+?>
+</BODY>
+</HTML>

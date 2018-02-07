@@ -1,0 +1,10 @@
+<HTML>
+<HEAD>
+<TITLE>readlink</TITLE>
+</HEAD>
+<BODY>
+<?
+	print(readlink("data.txt"));	
+?>
+</BODY>
+</HTML>

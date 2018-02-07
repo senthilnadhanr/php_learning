@@ -1,0 +1,10 @@
+<HTML>
+<HEAD>
+<TITLE>gethostbyname</TITLE>
+</HEAD>
+<BODY>
+<?
+	print(gethostbyname("www.php.net"));
+?>
+</BODY>
+</HTML>

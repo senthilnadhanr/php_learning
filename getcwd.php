@@ -1,0 +1,10 @@
+<HTML>
+<HEAD>
+<TITLE>getcwd</TITLE>
+</HEAD>
+<BODY>
+<?
+	print(getcwd());
+?>
+</BODY>
+</HTML>

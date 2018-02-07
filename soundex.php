@@ -1,0 +1,12 @@
+<HTML>
+<HEAD>
+<TITLE>soundex</TITLE>
+</HEAD>
+<BODY>
+<?
+	print(soundex("lion"));
+	print("<BR>");
+	print(soundex("lying"));
+?>
+</BODY>
+</HTML>

@@ -1,0 +1,10 @@
+<HTML>
+<HEAD>
+<TITLE>easter_days</TITLE>
+</HEAD>
+<BODY>
+<?
+	print(easter_days(2000));
+?>
+</BODY>
+</HTML>

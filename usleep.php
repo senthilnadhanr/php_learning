@@ -1,0 +1,13 @@
+<HTML>
+<HEAD>
+<TITLE>usleep</TITLE>
+</HEAD>
+<BODY>
+<?
+	print(microtime());
+	usleep(30);
+	print("<BR>\n");
+	print(microtime());
+?>
+</BODY>
+</HTML>

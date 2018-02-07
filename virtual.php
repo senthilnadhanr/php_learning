@@ -1,0 +1,10 @@
+<HTML>
+<HEAD>
+<TITLE>virtual</TITLE>
+</HEAD>
+<BODY>
+<?
+	virtual("ssi-example.shtml");
+?>
+</BODY>
+</HTML>

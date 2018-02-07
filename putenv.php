@@ -1,0 +1,10 @@
+<HTML>
+<HEAD>
+<TITLE>putenv</TITLE>
+</HEAD>
+<BODY>
+<?
+	putenv("PATH=/local/bin;.");
+?>
+</BODY>
+</HTML>

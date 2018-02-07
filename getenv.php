@@ -1,0 +1,10 @@
+<HTML>
+<HEAD>
+<TITLE>getenv</TITLE>
+</HEAD>
+<BODY>
+<?
+	print(getenv("PATH"));
+?>
+</BODY>
+</HTML>

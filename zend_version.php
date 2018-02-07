@@ -1,0 +1,10 @@
+<HTML>
+<HEAD>
+<TITLE>zend_version</TITLE>
+</HEAD>
+<BODY>
+<?
+	print(zend_version());
+?>
+</BODY>
+</HTML>

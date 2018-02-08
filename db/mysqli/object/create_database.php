@@ -1,17 +1,17 @@
 <?php
-$servername = "localhost";
+$host = "localhost";
 $username = "root";
 $password = "";
 
 // Create connection
-$conn = new mysqli($servername, $username, $password);
+$conn = new mysqli($host, $username, $password);
 // Check connection
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
 // Create database
-$sql = "CREATE DATABASE myDB";
+$sql = "CREATE DATABASE myPhpDB";
 if ($conn->query($sql) === TRUE) {
     echo "Database created successfully";
 } else {

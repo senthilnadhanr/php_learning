@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My First page</title>
+<link href="style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+<form name="frmRegister" id="frmRegister" method="post" enctype="" action="form.php" style="border:2px solid #00FF00;">
+<div id="name-box" class="common-box">
+<span style="color:#00FF00;margin:5px">Name:</span><input type="text" style="width:250px;height:30px;border:1px solid" name="name" value="Mr." placeholder="enter you name">
+</div>
+Password:<input type="password" name="password">
+
+
+Gender: Male<input type="radio" name="gender" id="gender_m" value="male"> Female<input name="gender" id="gender_f" type="radio" value="male">
+<br>
+Hobbies: Criket<input type="checkbox" name="hobbies[]" id="hobbies_c" value="cricket"> Volly ball<input type="checkbox" name="hobbies[]" id="hobbies_vb" value="vollly">
+		Tennis<input type="checkbox" name="hobbies[]" value="ten" id="hobbies_t">
+		<br>
+Description:<textarea name="description" id="description"> </textarea>
+<br>
+Country:<select name="country" id="country">
+<option value="IN">India</option>
+<option value="US">United states of america</option>
+<option value="UK">United kingdom</option>
+</select>
+<br>
+Skills:<select name="skills[]" multiple>
+<option value="C">C</option>
+<option value="cpp">C++</option>
+<option value="php">PHP</option>
+<option value="java">Java</option>
+</select>
+<br>
+<input name="submit" type="submit" value="Register">
+
+</form>
+
+</body>
+</html>

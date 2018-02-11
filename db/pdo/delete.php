@@ -2,15 +2,19 @@
 $host = "localhost";
 $username = "root";
 $password = "";
+$db_name = "myPDODB";
 
 try {
-    $conn = new PDO("mysql:host=$host;dbname=myPDODB", $username, $password);
+    $conn = new PDO("mysql:host=$host;dbname=$db_name", $username, $password);
     // set the PDO error mode to exception
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-    $sql = "CREATE DATABASE myPDODB";
+
+    // sql to delete a record
+    $sql = "DELETE FROM MyGuests WHERE id=3";
+
     // use exec() because no results are returned
     $conn->exec($sql);
-    echo "Database created successfully<br>";
+    echo "Record deleted successfully";
 }
 catch(PDOException $e)
 {

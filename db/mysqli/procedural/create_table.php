@@ -1,14 +1,14 @@
 <?php
-$servername = "localhost";
+$host = "localhost";
 $username = "root";
 $password = "";
-$dbname = "myPhpDB";
+$dbname = "myphpDB";
 
 // Create connection
-$conn = new mysqli($servername, $username, $password, $dbname);
+$conn = mysqli_connect($host, $username, $password, $dbname);
 // Check connection
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
+if (!$conn) {
+    die("Connection failed: " . mysqli_connect_error());
 }
 
 // sql to create table
@@ -20,11 +20,11 @@ email VARCHAR(50),
 reg_date TIMESTAMP
 )";
 
-if ($conn->query($sql) === TRUE) {
+if (mysqli_query($conn, $sql)) {
     echo "Table MyGuests created successfully";
 } else {
-    echo "Error creating table: " . $conn->error;
+    echo "Error creating table: " . mysqli_error($conn);
 }
 
-$conn->close();
+mysqli_close($conn);
 ?>
